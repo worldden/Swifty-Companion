@@ -32,7 +32,10 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         viewDidLoad()
     }
     
+    @IBOutlet weak var tabbar: UITabBar!
+    
     @IBOutlet var lables: [UILabel]!
+    @IBOutlet var Button: [UIButton]!
     
     @IBOutlet weak var spiderChartView: DDSpiderChartView!
     
@@ -220,8 +223,8 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         cell.project.text = projects_users[indexPath.row].0
         if  project == 0{
             cell.score.text = "☺️" + String(describing: projects_users[indexPath.row].4!)
-            cell.project.textColor = UIColor(red: 0.2, green: 0.7, blue: 0.2, alpha: 1.0)
-            cell.score.textColor = UIColor(red: 0.2, green: 0.7, blue: 0.2, alpha: 1.0) }
+            cell.project.textColor = UIColor(red: 0.1, green: 0.7, blue: 0.6, alpha: 1.0)
+            cell.score.textColor = UIColor(red: 0.1, green: 0.7, blue: 0.6, alpha: 1.0) }
         else if project == 1 {
             if projects_users[indexPath.row].4! == -42 {
                 cell.score.text = "☔️" + String (describing: projects_users[indexPath.row].4!) }
@@ -233,6 +236,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
             cell.score.text = projects_users[indexPath.row].2
             cell.project.textColor = UIColor(red: 1.0, green: 0.7, blue: 0.2, alpha: 1.0)
             cell.score.textColor = UIColor(red: 1.0, green: 0.7, blue: 0.2, alpha: 1.0) }
+        cell.backgroundColor = UIColor.clear
         return cell
     }
     
@@ -258,18 +262,25 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         if style_pro == 0 {
             back.image = UIImage(named: "white2")
             lables.map({$0.textColor = .black})
-   
+            Button.map({$0.backgroundColor = .white})
+            
+            self.tableView.backgroundColor = UIColor.white
+            self.tabbar.backgroundImage = UIImage(named: "white2")
             
             
+        
             navigationController?.navigationBar.barTintColor = UIColor.white
             navigationController?.navigationBar.tintColor = UIColor.black
-            navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.black]   //3
+            navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.black]
     
-            
         }
         else {
             back.image = UIImage(named: "black2")
             lables.map({$0.textColor = .white})
+            Button.map({$0.backgroundColor = .black})
+            
+            self.tableView.backgroundColor = UIColor.black
+            self.tabbar.backgroundImage = UIImage(named: "black2")
             
             navigationController?.navigationBar.barTintColor = UIColor.black
             navigationController?.navigationBar.tintColor = UIColor.white
