@@ -1,0 +1,6 @@
+framework module Pods_swifty_companion {
+  umbrella header "Pods-swifty_companion-umbrella.h"
+
+  export *
+  module * { export * }
+}

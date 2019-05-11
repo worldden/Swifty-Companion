@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Charts (3.0.5):
+    - Charts/Core (= 3.0.5)
+  - Charts/Core (3.0.5)
+  - DDSpiderChart (0.5)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts (~> 3.0.5)
+  - DDSpiderChart
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Charts
+    - DDSpiderChart
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Charts: 45cdc985b764c838b35ee47eb1365d15735f6d1a
+  DDSpiderChart: e8ea6e63b54b08bd680c66cd48a0f51ca80b8f96
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: cfa0015005c38c6653e473742fff5132fac1a525
+
+COCOAPODS: 1.6.1
