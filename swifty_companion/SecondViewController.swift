@@ -37,6 +37,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     @IBOutlet var lables: [UILabel]!
     @IBOutlet var Button: [UIButton]!
     
+    @IBOutlet weak var scroll: UIScrollView!
     @IBOutlet weak var spiderChartView: DDSpiderChartView!
     
     @IBOutlet weak var tableView: UITableView!
@@ -266,6 +267,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
             
             self.tableView.backgroundColor = UIColor.white
             self.tabbar.backgroundImage = UIImage(named: "white2")
+            self.scroll.backgroundColor = UIColor.white
             
             
         
@@ -281,6 +283,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
             
             self.tableView.backgroundColor = UIColor.black
             self.tabbar.backgroundImage = UIImage(named: "black2")
+            self.scroll.backgroundColor = UIColor.black
             
             navigationController?.navigationBar.barTintColor = UIColor.black
             navigationController?.navigationBar.tintColor = UIColor.white

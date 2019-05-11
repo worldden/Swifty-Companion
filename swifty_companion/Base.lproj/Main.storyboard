@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M6M-Mo-2Ux">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,14 +16,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swifty_companion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="879-16-5V4">
-                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ddehtyar" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ypE-2A-a3y">
-                                <rect key="frame" x="107" y="224" width="200" height="34"/>
+                                <rect key="frame" x="60" y="224" width="200" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="QNI-Gd-76v"/>
                                 </constraints>
@@ -35,7 +35,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Bf-nz-9hk">
-                                <rect key="frame" x="107.66666666666669" y="328" width="200" height="42"/>
+                                <rect key="frame" x="60" y="328" width="200" height="42"/>
                                 <color key="backgroundColor" red="0.35153477657638038" green="0.82600333121827407" blue="0.7774274837855486" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="CGX-ey-HLq"/>
@@ -123,7 +123,7 @@
                                                         <rect key="frame" x="0.0" y="28" width="414" height="103"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VXB-k2-t7N" id="6te-DI-CVc">
-                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="102.66666666666667"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="102.5"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CEG-eK-lWN">
@@ -133,7 +133,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Sif-ww-Sbh">
-                                                                    <rect key="frame" x="279" y="5" width="130" height="77.666666666666671"/>
+                                                                    <rect key="frame" x="279" y="5" width="130" height="77.5"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="130" id="iXI-v7-nRb"/>
                                                                     </constraints>
@@ -238,7 +238,7 @@
                                                 <rect key="frame" x="10" y="190" width="394" height="70"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ear-OG-inH">
-                                                        <rect key="frame" x="167.66666666666666" y="20" width="59.333333333333343" height="30"/>
+                                                        <rect key="frame" x="167.5" y="20" width="59.5" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -268,7 +268,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SKILLS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DcT-3L-039">
-                                                <rect key="frame" x="30.000000000000007" y="261.33333333333331" width="100.66666666666669" height="48.666666666666686"/>
+                                                <rect key="frame" x="30" y="261.5" width="100.5" height="48.5"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -375,6 +375,7 @@
                         <outlet property="nick" destination="O08-dz-WsZ" id="Rcl-G5-Aek"/>
                         <outlet property="photo" destination="rEW-Ax-Ikm" id="cSH-U3-kBB"/>
                         <outlet property="point" destination="i6D-qu-Lsw" id="47N-s3-mC7"/>
+                        <outlet property="scroll" destination="D4T-3p-HOr" id="buC-HW-5b3"/>
                         <outlet property="spiderChartView" destination="Svw-NJ-OuG" id="j6D-el-WsY"/>
                         <outlet property="tabbar" destination="zej-Ol-k8L" id="lXf-lU-fGt"/>
                         <outlet property="tableView" destination="qTY-Zq-iTs" id="hk7-Md-RWI"/>
@@ -405,7 +406,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="M6M-Mo-2Ux" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gYm-oM-9hJ">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
