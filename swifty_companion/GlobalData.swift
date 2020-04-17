@@ -14,3 +14,4 @@ struct gData {
     let secret: String = "d927a6341f5d128f0f0807a6ee74b06df9db1c11e87a61859aa9b7169b5c5fc3"
     var token: String = ""
 }
+
